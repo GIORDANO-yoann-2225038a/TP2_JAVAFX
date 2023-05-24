@@ -14,4 +14,8 @@ module com.example.tp2_javafx {
     exports com.example.tp2_javafx.partie1;
     exports com.example.tp2_javafx.Exo6;
     exports com.example.tp2_javafx.TP2;
+    exports com.example.tp2_javafx.Partie3;
+    exports com.example.exercice11;
+    opens com.example.exercice11 to javafx.fxml;
+
 }

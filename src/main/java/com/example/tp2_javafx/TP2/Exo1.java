@@ -37,7 +37,7 @@ public class Exo1 extends Application {
         primaryStage.setTitle("Couleur Fond");
 
         root = new BorderPane();
-        root.setPrefSize(WINDOW_WIDTH, WINDOW_HEIGHT);
+        root.setPrefSize(WINDOW_WIDTH, WINDOW_HEIGHT);;
 
         // Top - Label
         resultLabel = new Label();
